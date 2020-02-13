@@ -16,7 +16,7 @@ MonoBehaviour:
   speedVertical: 1
   lifePoints: 100
   damageValue: 20
-  verticalImpulse: 30
+  verticalImpulse: 20
   dashSpeed: 200
   ladderSpeed: 2
   onAirHorizontalSpeed: 3

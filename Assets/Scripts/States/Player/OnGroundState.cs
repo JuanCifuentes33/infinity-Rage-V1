@@ -46,7 +46,11 @@ public class OnGroundState : PlayerState
 
         //SI SE PULSA LA TECLA "ESPACIO", SE AÑADE UN IMPULSO VERTICAL AL RIGIDBODY USANDO EL PLAYERCHARACTER (DEL PLAYERSTATE.CS)
         if (Input.GetButtonDown("Jump"))
+        {
             rb2D.AddForce(new Vector2(0, 1) * playerCharacter.pModel.verticalImpulse, ForceMode2D.Impulse);
+            Debug.Log("Salta");
+        }
+            
             
 
         if (Input.GetKeyDown(KeyCode.LeftShift))
