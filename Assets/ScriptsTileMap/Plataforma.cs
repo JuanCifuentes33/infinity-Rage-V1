@@ -4,22 +4,39 @@ using UnityEngine;
 
 public class Plataforma : MonoBehaviour
 {
-    public Transform[] puntosToMove;
-    public float speed;
-    private int currentPunto = 0;
 
+    [SerializeField]
+    public GameObject[] puntosToMove;
+
+    
+    public float speed;
+
+    private int currentPunto = 0;
+    private float movePRadius = 0.5f;
+
+
+    private Rigidbody2D rb2D;
 
     private void Start()
     {
-        
+        rb2D = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
     {
-       // currentPunto++
+        if (Vector3.Distance(transform.position, puntosToMove[currentPunto].transform.position) < movePRadius)
+        {
+
+            currentPunto++;
+
+            if (currentPunto >= puntosToMove.Length)
+            {
+                currentPunto = 0;
+            }
+        }
     }
     private void FixedUpdate()
     {
-        
+        rb2D.transform.position = Vector3.MoveTowards(transform.position, puntosToMove[currentPunto].transform.position, speed * Time.deltaTime);
     }
 }

@@ -250,7 +250,7 @@ GameObject:
   - component: {fileID: 810386311023904818}
   - component: {fileID: 8581329071349711279}
   m_Layer: 0
-  m_Name: Plataforma
+  m_Name: fallPlataforma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -293,7 +293,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!61 &810386311023904818
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -332,3 +332,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0812c1af0902ba64e8fb8fed2e4b99f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  vibrarDuration: 1
