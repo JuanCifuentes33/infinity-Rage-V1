@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C7072193-19A9-1961-1411-4F4C978368A9}</ProjectGuid>
+    <ProjectGuid>{6414DBE4-3142-A1EB-AAD9-FDDBC527CD38}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,11 +63,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\probador\probadorr.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Rhino.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Models\Characters\Boss\BossModel.cs" />
     <Compile Include="Assets\Scripts\Models\Characters\CharacterModel.cs" />
     <Compile Include="Assets\Scripts\Models\Characters\Player\PlayerModel.cs" />
     <Compile Include="Assets\Scripts\Models\PowerUps\PowerUpModel.cs" />
+    <Compile Include="Assets\Scripts\movimientoCamara.cs" />
     <Compile Include="Assets\Scripts\ParallaxController.cs" />
     <Compile Include="Assets\Scripts\PinchoController.cs" />
     <Compile Include="Assets\Scripts\RockController.cs" />
@@ -82,22 +84,22 @@
     <Compile Include="Assets\ScriptsTileMap\InestablePlatform.cs" />
     <Compile Include="Assets\ScriptsTileMap\Plataforma.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>E:/Github/Infinity-Rage/infinity-Rage-V1-JuanBranch/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Alumno/Documents/GitHub/infinity-Rage-V1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>E:/Github/Infinity-Rage/infinity-Rage-V1-JuanBranch/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Alumno/Documents/GitHub/infinity-Rage-V1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>E:/Github/Infinity-Rage/infinity-Rage-V1-JuanBranch/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Alumno/Documents/GitHub/infinity-Rage-V1/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>E:/Github/Infinity-Rage/infinity-Rage-V1-JuanBranch/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Alumno/Documents/GitHub/infinity-Rage-V1/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/Github/Infinity-Rage/infinity-Rage-V1-JuanBranch/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Alumno/Documents/GitHub/infinity-Rage-V1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>E:/Github/Infinity-Rage/infinity-Rage-V1-JuanBranch/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/Alumno/Documents/GitHub/infinity-Rage-V1/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -283,13 +285,13 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.14f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>E:/Github/Infinity-Rage/infinity-Rage-V1-JuanBranch/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/Alumno/Documents/GitHub/infinity-Rage-V1/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>E:/Github/Infinity-Rage/infinity-Rage-V1-JuanBranch/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Alumno/Documents/GitHub/infinity-Rage-V1/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>E:/Github/Infinity-Rage/infinity-Rage-V1-JuanBranch/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/Alumno/Documents/GitHub/infinity-Rage-V1/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.14f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
