@@ -15,8 +15,9 @@ public class GameManager : MonoBehaviour
     public bool isPlayerDead;
     //FLOAT DE LA VIDA DEL JUGADOR
     public float playerHealth;
-   
-    
+
+    //bool para saber si ya esta en la zona del boss y asi agrandar la cam
+    public bool isWithBoss;
 
     public static GameManager Instance
     {
@@ -50,6 +51,8 @@ public class GameManager : MonoBehaviour
         
         //EL JUGADOR NO ESTÁ MUERTO
         isPlayerDead = false;
+
+        isWithBoss = false;
     }
 
     // Update is called once per frame

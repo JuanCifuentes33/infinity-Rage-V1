@@ -67,8 +67,10 @@
     <Compile Include="Assets\Scripts\Camara\ParallaxController.cs" />
     <Compile Include="Assets\Scripts\Enemies\Rhino.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Mapa\teleport.cs" />
     <Compile Include="Assets\Scripts\Models\Characters\Boss\BossModel.cs" />
     <Compile Include="Assets\Scripts\Models\Characters\CharacterModel.cs" />
+    <Compile Include="Assets\Scripts\Models\Characters\Enemies\EnemyModel.cs" />
     <Compile Include="Assets\Scripts\Models\Characters\Player\PlayerModel.cs" />
     <Compile Include="Assets\Scripts\Models\PowerUps\PowerUpModel.cs" />
     <Compile Include="Assets\Scripts\PinchoController.cs" />
@@ -79,6 +81,7 @@
     <Compile Include="Assets\Scripts\States\Boss\BossState.cs" />
     <Compile Include="Assets\Scripts\States\Boss\IdleState.cs" />
     <Compile Include="Assets\Scripts\States\Boss\InvocarState.cs" />
+    <Compile Include="Assets\Scripts\States\Enemy\Rhino\RhinoController.cs" />
     <Compile Include="Assets\Scripts\States\Player\DashingState.cs" />
     <Compile Include="Assets\Scripts\States\Player\JumpingState.cs" />
     <Compile Include="Assets\Scripts\States\Player\OnGroundState.cs" />
