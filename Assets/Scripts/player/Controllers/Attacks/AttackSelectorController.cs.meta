@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 258558f11eae9dc448b77eff80be1e2a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - fireBall: {fileID: 9106295533562302040, guid: 6bee9a6837e20d0429beecd20dd35079,
+      type: 3}
+  - blackHole: {fileID: 4316098236679035879, guid: 8984a84ef0ed08e41b4849cadc173a27,
+      type: 3}
+  - punch: {fileID: 7029712951831967528, guid: f761e2d8fef7e80459c362c5cf3c3328, type: 3}
+  - fbm: {fileID: 11400000, guid: e1db9e6791123e04b9a078aca8675076, type: 2}
+  - bhm: {fileID: 11400000, guid: fa276ec147562e742a5309ad0a706f85, type: 2}
+  - npm: {fileID: 11400000, guid: cab3fa12a1789ad479758cb385997432, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
