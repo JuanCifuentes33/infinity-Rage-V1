@@ -47,7 +47,7 @@ public class JumpingState : PlayerState
 
         //Debug.Log("ONAIR");
     }
-    public void OnCollisionENter2D(Collider2D other)
+    public void OnCollisionEnter2D(Collider2D other)
     {
         if (other.CompareTag("WAll"))
         {

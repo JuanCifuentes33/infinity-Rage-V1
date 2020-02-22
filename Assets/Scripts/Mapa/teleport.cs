@@ -6,6 +6,7 @@ public class teleport : MonoBehaviour
 {
     public Transform toTeleportPoint;
     private Transform player;
+    public GameObject backgroundtoHide;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,7 @@ public class teleport : MonoBehaviour
        if(collision.CompareTag("Player"))
         {
             player.position = toTeleportPoint.position;
+            backgroundtoHide.SetActive(false);
             Invoke("BossTrue", 1f);
 
         }
